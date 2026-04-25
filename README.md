@@ -103,4 +103,4 @@ python merge_md.py
 
 ---
 
-*Patterns extracted from 500+ competition notebooks · © 2025 · CC BY 4.0*
+*Patterns extracted from 500+ competition notebooks · © 2026 · CC BY 4.0*
