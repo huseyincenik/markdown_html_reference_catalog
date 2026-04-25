@@ -82,25 +82,4 @@ Dark gradient banner with badge pills — the fastest way to make a notebook loo
 
 ---
 
-## 🛠 Build System
-
-The notebook is generated from 6 build scripts merged by `merge_md.py`:
-
-```
-build_md_p1.py  →  md_catalog_p1.json  ─┐
-build_md_p2.py  →  md_catalog_p2.json  ─┤
-build_md_p3.py  →  md_catalog_p3.json  ─┤  merge_md.py  →  Kaggle_Markdown_HTML_Catalog.ipynb
-build_md_p4.py  →  md_catalog_p4.json  ─┤
-build_md_p5.py  →  md_catalog_p5.json  ─┤
-build_md_p6.py  →  md_catalog_p6.json  ─┘
-```
-
-To rebuild:
-```bash
-cd markdown/
-python merge_md.py
-```
-
----
-
 *Patterns extracted from 500+ competition notebooks · © 2026 · CC BY 4.0*
